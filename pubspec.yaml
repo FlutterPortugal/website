@@ -1,0 +1,26 @@
+name: landing_page
+description: Flutter Portugal Website
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_color_utilities: ^0.2.0
+  responsive_framework: ^1.1.0
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/flutter_pt_hz.png
+    - images/flutter_pt.png
