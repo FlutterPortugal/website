@@ -1,0 +1,34 @@
+[debug] [2024-10-06T18:10:20.451Z] ----------------------------------------------------------------------
+[debug] [2024-10-06T18:10:20.458Z] Command:       /Users/filipe.barroso/.nvm/versions/node/v20.17.0/bin/node /Users/filipe.barroso/.nvm/versions/node/v20.17.0/bin/firebase serve
+[debug] [2024-10-06T18:10:20.458Z] CLI Version:   13.20.1
+[debug] [2024-10-06T18:10:20.458Z] Platform:      darwin
+[debug] [2024-10-06T18:10:20.458Z] Node Version:  v20.17.0
+[debug] [2024-10-06T18:10:20.458Z] Time:          Sun Oct 06 2024 19:10:20 GMT+0100 (Western European Summer Time)
+[debug] [2024-10-06T18:10:20.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-06T18:10:20.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-06T18:10:20.502Z] > authorizing via signed-in user (flutterportugal@gmail.com)
+[debug] [2024-10-06T18:10:20.502Z] [iam] checking project landing-page-11afb for permissions ["firebase.projects.get"]
+[debug] [2024-10-06T18:10:20.503Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:20.503Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:20.503Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-11afb:testIamPermissions [none]
+[debug] [2024-10-06T18:10:20.503Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-11afb:testIamPermissions x-goog-quota-user=projects/landing-page-11afb
+[debug] [2024-10-06T18:10:20.503Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-11afb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-06T18:10:21.240Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-11afb:testIamPermissions 200
+[debug] [2024-10-06T18:10:21.240Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/landing-page-11afb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-06T18:10:21.240Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:21.241Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:21.241Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/landing-page-11afb [none]
+[debug] [2024-10-06T18:10:21.477Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/landing-page-11afb 200
+[debug] [2024-10-06T18:10:21.477Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/landing-page-11afb {"projectId":"landing-page-11afb","projectNumber":"48035057510","displayName":"Landing Page","name":"projects/landing-page-11afb","resources":{"hostingSite":"landing-page-11afb","realtimeDatabaseInstance":"landing-page-11afb"},"state":"ACTIVE","etag":"1_9fcc65bc-b6ae-41a3-8d75-39b9a81c8635"}
+[info] 
+[info] === Serving from '/Users/filipe.barroso/Repositories/FlutterPortugal/website'...
+[info] 
+[debug] [2024-10-06T18:10:21.479Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:21.479Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:21.479Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/landing-page-11afb/sites 
+[debug] [2024-10-06T18:10:22.621Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/landing-page-11afb/sites 200
+[debug] [2024-10-06T18:10:22.621Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/landing-page-11afb/sites {"sites":[{"name":"projects/landing-page-11afb/sites/landing-page-11afb","defaultUrl":"https://landing-page-11afb.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-10-06T18:10:22.621Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:22.621Z] Checked if tokens are valid: true, expires at: 1728240255483
+[debug] [2024-10-06T18:10:22.621Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/landing-page-11afb/webApps/-/config [none]

@@ -18,12 +18,12 @@ final socials = [
     )
   ),
   (
-    title: 'Meetup',
-    description: 'Know when and where is the next event',
-    label: 'Join Meetup',
+    title: 'Oficina',
+    description: 'Self paced Flutter intro course.',
+    label: 'Website',
     url: (
-      host: 'www.meetup.com',
-      path: '/FlutterPortugal',
+      host: 'workshop.flutter.pt',
+      path: '',
     )
-  )
+  ),
 ];
