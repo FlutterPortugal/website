@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:landing_page/shared/constants.dart';
 import 'package:landing_page/public/social/social.dart';
+import 'package:landing_page/shared/socials.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class SocialContent extends StatelessWidget {
