@@ -9,21 +9,12 @@ final socials = [
     )
   ),
   (
-    title: 'Twitter',
+    title: 'Bluesky',
     description: 'For all the latest news and articles',
-    label: 'Follow on Twitter',
+    label: 'Follow on Bluesky',
     url: (
-      host: 'twitter.com',
-      path: '/FlutterPortugal',
+      host: 'bsky.app',
+      path: '/profile/flutterportugal.bsky.social',
     )
-  ),
-  (
-    title: 'Oficina',
-    description: 'Self paced Flutter intro course.',
-    label: 'Website',
-    url: (
-      host: 'workshop.flutter.pt',
-      path: '',
-    )
-  ),
+  )
 ];
